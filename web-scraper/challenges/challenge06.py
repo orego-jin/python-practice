@@ -70,7 +70,7 @@ def main():
            currency_calculator()
           except:
             print("That wasn't a number")
-
+            currency_calculator()
         else:
           print("Choose a number from the list")
           second_country()
